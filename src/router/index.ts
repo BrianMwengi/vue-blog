@@ -1,13 +1,18 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import PostListView from '../views/PostListView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: HomeView,
+      name: 'post-list',
+      component: PostListView,
+    },
+    {
+      path: '/post/:id',
+      name: 'single-post',
+      component: () => import('../views/SinglePostView.vue'),
     },
     {
       path: '/about',

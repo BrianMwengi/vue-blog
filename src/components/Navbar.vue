@@ -6,9 +6,8 @@
         <span>Vue Blog</span>
       </div>
       <div class="nav-links">
-        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/">Posts</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/blog">Blog</RouterLink>
         <RouterLink to="/contact">Contact</RouterLink>
       </div>
     </div>
