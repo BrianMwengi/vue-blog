@@ -24,6 +24,16 @@
 </template>
 
 <script setup lang="ts">
+/**
+ * @component SinglePostView
+ * @description Displays a single blog post's complete content based on the route parameter ID.
+ * Retrieves the post from the mock data using the ID from the URL, and displays the title,
+ * author, publishing date, and full content split into paragraphs. If no matching post is found,
+ * displays a "Post Not Found" message with a link back to the posts list.
+ * 
+ * The component demonstrates dynamic routing with parameters and conditional rendering
+ * based on data availability.
+ */
 import { useRoute, RouterLink } from 'vue-router'
 import { computed } from 'vue'
 import { posts, type Post } from '@/data/mockPosts'

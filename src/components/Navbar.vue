@@ -15,6 +15,12 @@
 </template>
 
 <script setup lang="ts">
+/**
+ * @component Navbar
+ * @description Main navigation component for the Vue Blog application. Provides links to the
+ * main sections of the site including Posts, About, and Contact pages.
+ * The component displays the site logo and navigation links with active state styling.
+ */
 import { RouterLink } from 'vue-router'
 </script>
 

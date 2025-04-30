@@ -12,6 +12,18 @@
   </div>
 </template>
 
+<script setup lang="ts">
+/**
+ * @component WelcomeItem
+ * @description A reusable component that displays an icon with a heading and content.
+ * Used by TheWelcome component to create a consistent layout for welcome messages.
+ * 
+ * @slot icon - Icon to be displayed next to the content
+ * @slot heading - Title/Heading of the welcome item
+ * @slot default - Main content of the welcome item
+ */
+</script>
+
 <style scoped>
 .item {
   margin-top: 2rem;

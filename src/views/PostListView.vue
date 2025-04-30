@@ -18,6 +18,13 @@
 </template>
 
 <script setup lang="ts">
+/**
+ * @component PostListView
+ * @description The main blog listing page that displays all available blog posts in a grid layout.
+ * Each post is shown as a card with title, author, date, and a snippet of the content.
+ * Titles link to the individual post view, and "Read More" buttons are provided for navigation.
+ * The component uses the mock data from mockPosts.ts to display the blog entries.
+ */
 import { posts } from '@/data/mockPosts';
 import { RouterLink } from 'vue-router';
 </script>

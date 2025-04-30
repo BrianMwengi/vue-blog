@@ -16,6 +16,13 @@
 </template>
 
 <script setup lang="ts">
+/**
+ * @component Footer
+ * @description Footer component for the Vue Blog application that appears at the bottom of every page.
+ * Features copyright information with the current year, and links to important pages like
+ * Terms of Service, Privacy Policy, and Contact. The component automatically updates the copyright
+ * year to the current year.
+ */
 import { ref, onMounted } from 'vue'
 
 const currentYear = ref(new Date().getFullYear())
