@@ -24,19 +24,23 @@ import Footer from './components/Footer.vue'
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
+  background-color: #f9f9f9;
 }
 
 .main-content {
   flex: 1;
   width: 100%;
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 
 .content-container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 </style>
 
